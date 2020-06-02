@@ -19,11 +19,19 @@ while (N < 0):
 
 lista, primos, suma = [0, 1], [], 0
 
-for i in range(2, N):
+i = 2
+while (i < N):
     lista.append(i)
     if(esPrimo(lista[i])):
         suma += lista[i]
         primos.append(lista[i])
-        
-print(primos)
+    i += 1
+
+#for i in range(2, N):
+#   lista.append(i)
+#    if(esPrimo(lista[i])):
+#        suma += lista[i]
+#        primos.append(lista[i])
+
+print("Lista de numeros primos: " + primos)
 print(suma)
