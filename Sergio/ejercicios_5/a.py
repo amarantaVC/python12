@@ -5,7 +5,6 @@ def esPrimo(num):
 
     esPrimo = True
     i = 2
-
     while (esPrimo and i < num):
         if (num % i == 0):
             esPrimo = False
@@ -25,6 +24,6 @@ for i in range(2, N):
     if(esPrimo(lista[i])):
         suma += lista[i]
         primos.append(lista[i])
-    
+        
 print(primos)
 print(suma)
