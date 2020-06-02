@@ -33,5 +33,4 @@ while (i < N):
 #        suma += lista[i]
 #        primos.append(lista[i])
 
-print("Lista de numeros primos: " + primos)
-print(suma)
+print("Lista de numeros primos: " + str(primos) + "\nSu suma es: " + str(suma))
