@@ -19,6 +19,9 @@ while (N < 0):
 
 lista, primos, suma = [0, 1], [], 0
 
+#PRECONDICION
+assert(N > 0)
+
 i = 2
 while (i < N):
     lista.append(i)
