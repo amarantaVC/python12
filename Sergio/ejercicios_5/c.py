@@ -1,6 +1,6 @@
 #Dada una secuencia de n enteros, hallar el segundo menor de la secuencia.
 
-def selecccionSort(Lista):
+def seleccionSort(Lista):
     for i in range(len(Lista)):
         menor = i
         for k in range(i+1, len(Lista)):
@@ -15,7 +15,7 @@ def swap(A, x, y):
     A[x] = A[y]
     A[y] = temp
 
-lista = [5, 6, 3, 2]
-seleccioncSort(lista)
+lista = [5, 6, 3, 9]
+seleccionSort(lista)
 print(lista[1])
 
