@@ -1,0 +1,1 @@
+# Calcular el índice académico de un trimestre. Suponga que en una secuencia de enteros de tamaño N se almacena la nota obtenida en cada materia y en otra secuencia se almacena el número de créditos correspondientes a esas materia. N representa el número de materias inscritas en el trimestre.

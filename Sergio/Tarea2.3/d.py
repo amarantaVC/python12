@@ -1,0 +1,1 @@
+#Dado un vector V, calcular su norma v[1]**2 + ... + v[n]**2

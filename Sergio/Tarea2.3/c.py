@@ -1,0 +1,1 @@
+#Dados dos vectores A y B, calcular un tercer vector C que almacena la suma de ellos. Suponga que los vectores se almacenan en dos secuencias de valores reales
