@@ -1,0 +1,1 @@
+#Determinar la distribución mínima en billetes y monedas para una suma de dinero. Asuma que los billetes son de las denominaciones Bs.100, Bs.50, Bs.20, Bs.10, Bs.5 y las monedas Bs.2 y Bs.1.
