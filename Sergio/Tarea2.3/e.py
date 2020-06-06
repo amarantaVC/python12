@@ -11,8 +11,10 @@ def indice(A, B):
 
     return sumaPuntos/sumaCreditos
 
+#ENTRADA
 N = int(input('Numero de materias inscritas, M = '))
 Notas = [int(input('Nota[' + str(i) + '] = ')) for i in range (0, N)]
 Creditos = [int(input('Creditos[' + str(i) + '] = ')) for i in range (0, N)]
 
+#SALIDA
 print('Indice Academico: ' + str(indice(Notas, Creditos)))
