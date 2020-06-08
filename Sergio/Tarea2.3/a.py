@@ -1,7 +1,7 @@
 #Dado una secuencia de caracteres de tamano N, diga cuantas veces aparece cada una de las vocales.
 
 def contadorVocales(lista):
-    contadores = [0, 0, 0, 0, 0] # 5 vocales, 5 contadores
+    contadores = [0, 0, 0, 0, 0] # 5 vocales
     i = 0
     while (i < len(lista)):
         if(sec[i] == 'a'):
