@@ -20,4 +20,10 @@ def irreducible(x, y):
     else:
         return False
 
-print(irreducible(5, 10))
+# ENTRADA
+a = int(input('x = '))
+b = int(input('y = '))
+
+# SALIDA
+
+print('¿ ' + str(a)+'/'+str(b) + ' es irreducible? \n'+str(irreducible(a,b)))
