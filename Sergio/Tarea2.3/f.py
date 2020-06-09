@@ -26,4 +26,4 @@ b = int(input('y = '))
 
 # SALIDA
 
-print('¿ ' + str(a)+'/'+str(b) + ' es irreducible? \n'+str(irreducible(a,b)))
+print('¿' + str(a)+'/'+str(b) + ' es irreducible? \n'+str(irreducible(a,b)))
