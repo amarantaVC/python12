@@ -1,5 +1,16 @@
 #Determinar la distribución mínima en billetes y monedas para una suma de dinero. Asuma que los billetes son de las denominaciones Bs.100, Bs.50, Bs.20, Bs.10, Bs.5 y las monedas Bs.2 y Bs.1.
 
+#Funcion es primo
+def esPrimo(num):
+
+    esPrimo = True
+    i = 2
+    while (esPrimo and i < num):
+        if (num % i == 0):
+            esPrimo = False
+        i += 1
+
+    return esPrimo
 
 def distrMinima(cantidad):
 
@@ -22,6 +33,9 @@ def distrMinima(cantidad):
             monedas[4] += 1
             cantidad -= 5
         elif(cantidad % 2 == 0):
+            monedas[5] += 1
+            cantidad -= 2
+        elif(esPrimo(cantidad)):
             monedas[5] += 1
             cantidad -= 2
         elif(cantidad % 1 == 0):
@@ -49,3 +63,5 @@ for i in range(0, cantidad):
         print('Monedas de 2: ' + str(distrMinima(cantidad)[i]))
     elif(i == 6 and distrMinima(cantidad)[i] != 0):
         print('Monedas de 1: ' + str(distrMinima(cantidad)[i]))
+
+print(distrMinima(cantidad))
