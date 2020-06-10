@@ -11,6 +11,6 @@ def sumaVectores(a, b):
 
 N = int(input('Ingrese el valor de N = '))
 A = [int(input('A[' + str(i) + '] = ')) for i in range(0, N)]
-B = [int(input('A[' + str(i) + '] = ')) for i in range(0, N)]
+B = [int(input('B[' + str(i) + '] = ')) for i in range(0, N)]
 
 print('Vector C = '+ str(sumaVectores(A, B)))
