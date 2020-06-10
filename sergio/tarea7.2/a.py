@@ -21,4 +21,4 @@ A = [[int(input("A["+str(i)+"]["+str(j)+"]="))for i in range(0, N)] for j in ran
 B = [[int(input("B["+str(k)+"]["+str(l)+"]="))for k in range(0, M)] for l in range(0, N)]
 
 # Salida
-print('A = ' + str(A)+'\nB = ' + str(B)+'\n ¿B es transpuesta de A?\nR: '+str(transpuesta(A,B,N,M)))
+print('A = ' + str(A)+'\nB = ' + str(B)+'\n ¿B es transpuesta de A?\nR: '+str(transpuesta(A,B,N,M)))g
